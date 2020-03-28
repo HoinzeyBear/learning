@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">learning</string>
+    <string name="start_started_service">Start Started Service</string>
+    <string name="stop_started_service">Stop Started Service</string>
+    <string name="started_service_ui_checkbox">UI Blocked</string>
+    <string name="started_service_result">Started Service Result:</string>
+
+    <string name="start_intent_service">Start Intent Service</string>
+    <string name="intent_service_result">Intent Service Result:</string>
+
+    <string name="bound_service_add">Add</string>
+    <string name="bound_service_subtract">Subtract</string>
+    <string name="bound_service_multiply">Multiply</string>
+    <string name="bound_service_divide">Divide</string>
+    <string name="bound_service_text_hint_zero">0</string>
+    <string name="bound_service_result">Result</string>
 </resources>

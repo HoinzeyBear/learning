@@ -9,13 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".services.ServicesActivity"></activity>
+        <activity android:name=".services.BoundServiceActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service android:name=".services.StartedService"></service>
+        <service android:name=".services.IntentServiceDemo"></service>
+        <service android:name=".services.BoundServiceDemo"/>
     </application>
 
 </manifest>
