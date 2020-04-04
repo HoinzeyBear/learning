@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".services.ServicesActivity"></activity>
-        <activity android:name=".services.BoundServiceActivity">
+        <activity android:name="recyclerview.NoteActivity"></activity>
+        <activity android:name=".services.BoundServiceActivity" />
+        <activity android:name=".services.ServicesActivity" />
+        <activity android:name="recyclerview.RecyclerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,9 +20,9 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".services.StartedService"></service>
-        <service android:name=".services.IntentServiceDemo"></service>
-        <service android:name=".services.BoundServiceDemo"/>
+        <service android:name=".services.StartedService" />
+        <service android:name=".services.IntentServiceDemo" />
+        <service android:name=".services.BoundServiceDemo" />
     </application>
 
 </manifest>
