@@ -9,16 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="recyclerview.NoteActivity"></activity>
+        <activity android:name=".recyclerview.RecyclerActivity" />
+        <activity android:name=".recyclerview.NoteActivity" />
         <activity android:name=".services.BoundServiceActivity" />
         <activity android:name=".services.ServicesActivity" />
-        <activity android:name="recyclerview.RecyclerActivity">
+        <activity android:name="com.example.learning.recyclerview_2.Recycler2MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".grid_layout.ExploreActivity" />
 
         <service android:name=".services.StartedService" />
         <service android:name=".services.IntentServiceDemo" />

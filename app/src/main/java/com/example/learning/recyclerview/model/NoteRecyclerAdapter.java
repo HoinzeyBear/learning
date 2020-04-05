@@ -1,4 +1,4 @@
-package recyclerview.model;
+package com.example.learning.recyclerview.model;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,7 +14,7 @@ import com.example.learning.R;
 
 import java.util.List;
 
-import recyclerview.NoteActivity;
+import com.example.learning.recyclerview.NoteActivity;
 
 public class NoteRecyclerAdapter extends RecyclerView.Adapter<NoteRecyclerAdapter.ViewHolder>{
 

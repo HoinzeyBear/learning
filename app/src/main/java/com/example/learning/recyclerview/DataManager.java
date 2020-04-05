@@ -1,11 +1,11 @@
-package recyclerview;
+package com.example.learning.recyclerview;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import recyclerview.model.CourseInfo;
-import recyclerview.model.ModuleInfo;
-import recyclerview.model.NoteInfo;
+import com.example.learning.recyclerview.model.CourseInfo;
+import com.example.learning.recyclerview.model.ModuleInfo;
+import com.example.learning.recyclerview.model.NoteInfo;
 
 public class DataManager {
     private static DataManager ourInstance = null;

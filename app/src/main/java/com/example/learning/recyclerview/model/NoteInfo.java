@@ -1,4 +1,4 @@
-package recyclerview.model;
+package com.example.learning.recyclerview.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

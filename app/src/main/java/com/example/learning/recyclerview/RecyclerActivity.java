@@ -1,19 +1,18 @@
-package recyclerview;
+package com.example.learning.recyclerview;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import androidx.appcompat.widget.Toolbar;
 //import com.google.android.material.appbar.AppBarLayout;
 
 import com.example.learning.R;
 
 import java.util.List;
 
-import recyclerview.model.NoteInfo;
-import recyclerview.model.NoteRecyclerAdapter;
+import com.example.learning.recyclerview.model.NoteInfo;
+import com.example.learning.recyclerview.model.NoteRecyclerAdapter;
 
 public class RecyclerActivity extends AppCompatActivity {
 
