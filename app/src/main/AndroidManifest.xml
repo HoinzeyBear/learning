@@ -10,12 +10,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".recyclerview_2.Recycler2MainActivity"/>
+        <activity android:name=".paged_list_adapter.roomdb.PagedListActivity" />
+        <activity android:name=".recyclerview_2.Recycler2MainActivity" />
         <activity android:name=".recyclerview.RecyclerActivity" />
         <activity android:name=".recyclerview.NoteActivity" />
         <activity android:name=".services.BoundServiceActivity" />
         <activity android:name=".services.ServicesActivity" />
-        <activity android:name=".paged_list_adapter.roomdb.PagedListActivity">
+        <activity android:name="viewpager2.ViewPagerMainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
