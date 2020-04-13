@@ -1,4 +1,4 @@
-package viewpager2.fragmentpager
+package com.example.learning.viewpager2.fragmentpager
 
 data class Foo(var itemName: String, var itemDescription: String)
 

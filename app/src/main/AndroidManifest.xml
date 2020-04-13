@@ -16,7 +16,7 @@
         <activity android:name=".recyclerview.NoteActivity" />
         <activity android:name=".services.BoundServiceActivity" />
         <activity android:name=".services.ServicesActivity" />
-        <activity android:name="viewpager2.ViewPagerMainActivity">
+        <activity android:name="com.example.learning.viewpager2.ViewPagerMainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

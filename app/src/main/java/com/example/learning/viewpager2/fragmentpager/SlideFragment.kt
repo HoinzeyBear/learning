@@ -1,4 +1,4 @@
-package viewpager2.fragmentpager
+package com.example.learning.viewpager2.fragmentpager
 
 import android.os.Bundle
 import android.view.LayoutInflater

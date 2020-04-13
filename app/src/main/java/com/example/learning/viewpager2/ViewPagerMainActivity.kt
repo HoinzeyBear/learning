@@ -1,4 +1,4 @@
-package viewpager2
+package com.example.learning.viewpager2
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,8 +6,8 @@ import android.widget.Toast
 import androidx.viewpager2.widget.ViewPager2
 import com.example.learning.R
 import kotlinx.android.synthetic.main.activity_view_pager_main.*
-import viewpager2.fragmentpager.FooItems
-import viewpager2.fragmentpager.MyFragmentStateAdapter
+import com.example.learning.viewpager2.fragmentpager.FooItems
+import com.example.learning.viewpager2.fragmentpager.MyFragmentStateAdapter
 
 class ViewPagerMainActivity : AppCompatActivity() {
 

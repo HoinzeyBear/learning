@@ -1,4 +1,4 @@
-package viewpager2
+package com.example.learning.viewpager2
 
 data class Item(var colorId: Int, var itemNumber: String)
 

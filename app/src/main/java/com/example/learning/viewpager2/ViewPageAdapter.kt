@@ -1,4 +1,4 @@
-package viewpager2
+package com.example.learning.viewpager2
 
 import android.content.Context
 import android.view.LayoutInflater
