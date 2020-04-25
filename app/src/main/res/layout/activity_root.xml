@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".rootActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ViewPager2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/nav_viewpager2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Go"
+                android:onClick="goToViewPager2" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/services_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Services" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/services_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service Activity"
+                android:onClick="goToServicesActivity" />
+
+            <Button
+                android:id="@+id/bound_service_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service Activity"
+                android:onClick="goToBoundServiceActivity" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/recyclerview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recycler Views" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/recyclerview_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recycler View"
+                android:onClick="goToRecyclerView" />
+
+            <Button
+                android:id="@+id/recyclerview_two_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recycler View 2"
+                android:onClick="goToRecyclerViewTwo" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/pagedlist_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paged List" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/pagedlist_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paged List"
+                android:onClick="goToPagedlist" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/gridview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grid View" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/gridview_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grid View"
+                android:onClick="goToGridView" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/fragments_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fragment" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/fragment_activity_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fragment Module 1"
+                android:onClick="goToFragmentOne" />
+
+            <Button
+                android:id="@+id/fragment_activity_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fragment Module 2"
+                android:onClick="goToFragmentTwo" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
