@@ -16,6 +16,9 @@ import com.example.learning.recyclerview.RecyclerActivity;
 import com.example.learning.recyclerview_2.Recycler2MainActivity;
 import com.example.learning.services.BoundServiceActivity;
 import com.example.learning.services.ServicesActivity;
+import com.example.learning.threads.AsyncTaskActivity;
+import com.example.learning.threads.HandlerThreadActivity;
+import com.example.learning.threads.ThreadLooperHandlerActivity;
 import com.example.learning.viewpager2.ViewPagerMainActivity;
 
 public class rootActivity extends AppCompatActivity {
@@ -24,6 +27,21 @@ public class rootActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_root);
+    }
+
+    public void goToAsyncTaskActivity(View view) {
+        Intent intent = new Intent(this, AsyncTaskActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToTLHActivity(View view) {
+        Intent intent = new Intent(this, ThreadLooperHandlerActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToHTActivity(View view) {
+        Intent intent = new Intent(this, HandlerThreadActivity.class);
+        startActivity(intent);
     }
 
     public void goToViewPager2(View view) {
