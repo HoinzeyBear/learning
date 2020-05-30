@@ -41,13 +41,13 @@
                 android:text="Basic view model"
                 android:onClick="goToBasicViewModel" />
 
-            <!--            <Button-->
-            <!--                android:id="@+id/nav_ht"-->
-            <!--                android:layout_width="0dp"-->
-            <!--                android:layout_height="wrap_content"-->
-            <!--                android:layout_weight="1"-->
-            <!--                android:text="Handler Thread"-->
-            <!--                android:onClick="goToHTActivity" />-->
+            <Button
+                android:id="@+id/architecture_livedataviewmodel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="live data view model"
+                android:onClick="goToLiveDataViewModel" />
         </LinearLayout>
 
     </LinearLayout>

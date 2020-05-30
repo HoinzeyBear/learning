@@ -21,6 +21,7 @@ import com.example.learning.threads.AsyncTaskActivity;
 import com.example.learning.threads.HandlerThreadActivity;
 import com.example.learning.threads.ThreadLooperHandlerActivity;
 import com.example.learning.viewmodel.BasicViewModelActivity;
+import com.example.learning.viewmodel.ViewModelLiveDataActivity;
 import com.example.learning.viewpager2.ViewPagerMainActivity;
 
 public class rootActivity extends AppCompatActivity {
@@ -29,6 +30,11 @@ public class rootActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_root);
+    }
+
+    public void goToLiveDataViewModel(View view) {
+        Intent intent = new Intent(this, ViewModelLiveDataActivity.class);
+        startActivity(intent);
     }
 
     public void goToBasicViewModel(View view) {
