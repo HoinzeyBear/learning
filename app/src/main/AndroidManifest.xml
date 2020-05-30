@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".threads.AsyncTaskActivity"></activity>
+        <activity android:name=".viewmodel.BasicViewModelActivity"></activity>
+        <activity android:name=".lifecycleaware.LifeCycleAwareActivity" />
+        <activity android:name=".threads.AsyncTaskActivity" />
         <activity android:name=".threads.HandlerThreadActivity" />
         <activity android:name=".threads.ThreadLooperHandlerActivity" />
         <activity android:name=".fragments.mod2.FragmentM2Main" />

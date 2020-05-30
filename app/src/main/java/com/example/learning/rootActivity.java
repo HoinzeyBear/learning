@@ -11,6 +11,7 @@ import android.widget.GridView;
 import com.example.learning.fragments.mod1.FragmentM1Main;
 import com.example.learning.fragments.mod2.FragmentM2Main;
 import com.example.learning.grid_layout.ExploreActivity;
+import com.example.learning.lifecycleaware.LifeCycleAwareActivity;
 import com.example.learning.paged_list_adapter.roomdb.PagedListActivity;
 import com.example.learning.recyclerview.RecyclerActivity;
 import com.example.learning.recyclerview_2.Recycler2MainActivity;
@@ -19,6 +20,7 @@ import com.example.learning.services.ServicesActivity;
 import com.example.learning.threads.AsyncTaskActivity;
 import com.example.learning.threads.HandlerThreadActivity;
 import com.example.learning.threads.ThreadLooperHandlerActivity;
+import com.example.learning.viewmodel.BasicViewModelActivity;
 import com.example.learning.viewpager2.ViewPagerMainActivity;
 
 public class rootActivity extends AppCompatActivity {
@@ -27,6 +29,16 @@ public class rootActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_root);
+    }
+
+    public void goToBasicViewModel(View view) {
+        Intent intent = new Intent(this, BasicViewModelActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToLifecycleAwareActivity(View view) {
+        Intent intent = new Intent(this, LifeCycleAwareActivity.class);
+        startActivity(intent);
     }
 
     public void goToAsyncTaskActivity(View view) {
