@@ -17,7 +17,7 @@
             android:id="@+id/architecture_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Threads" />
+            android:text="Architecture" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -281,6 +281,13 @@
                 android:layout_height="wrap_content"
                 android:text="Fragment Module 2"
                 android:onClick="goToFragmentTwo" />
+
+            <Button
+                android:id="@+id/fragment_activity_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Multiple fragment single VM"
+                android:onClick="goToFragmentThree" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

@@ -15,11 +15,11 @@ class ViewModelLiveDataActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_view_model_live_data)
+        supportActionBar?.hide()
 
         numberGenerator = ViewModelProvider(this).get(ViewModelWithLiveData::class.java)
-        val myNumber = numberGenerator.getNumber()
 
-        myNumber.observe(this, Observer<String> { number ->
+        numberGenerator.getNumber().observe(this, Observer<String> { number ->
             livedatatv.text = number
         })
 

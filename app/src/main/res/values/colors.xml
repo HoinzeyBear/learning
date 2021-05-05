@@ -3,4 +3,8 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="blog_background">#dee7e1</color>
+    <color name="blog_ide">#2D2D2D</color>
+    <color name="blog_orange_highlight">#D38D5D</color>
 </resources>

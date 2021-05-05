@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewmodel.MultipleFragmentViewmodelActivity">
+
+    <fragment
+        android:id="@+id/fragmentOne"
+        android:name="com.example.learning.viewmodel.MultipleViewmodelFragOne"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/fragmentTwo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/fragment_viewmodel_frag_one" />
+
+    <fragment
+        android:id="@+id/fragmentTwo"
+        android:name="com.example.learning.viewmodel.MultipleViewmodelFragTwo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragmentOne"
+        tools:layout="@layout/fragment_multiple_viewmodel_frag_two" />
+</androidx.constraintlayout.widget.ConstraintLayout>

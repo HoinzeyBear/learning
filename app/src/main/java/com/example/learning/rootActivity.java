@@ -4,11 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
-import android.widget.GridView;
 
 import com.example.learning.fragments.mod1.FragmentM1Main;
 import com.example.learning.fragments.mod2.FragmentM2Main;
@@ -23,6 +21,7 @@ import com.example.learning.threads.AsyncTaskActivity;
 import com.example.learning.threads.HandlerThreadActivity;
 import com.example.learning.threads.ThreadLooperHandlerActivity;
 import com.example.learning.viewmodel.BasicViewModelActivity;
+import com.example.learning.viewmodel.MultipleFragmentViewmodelActivity;
 import com.example.learning.viewmodel.ViewModelLiveDataActivity;
 import com.example.learning.viewpager2.ViewPagerMainActivity;
 
@@ -114,6 +113,11 @@ public class rootActivity extends AppCompatActivity {
 
     public void goToFragmentTwo(View view) {
         Intent intent = new Intent(this, FragmentM2Main.class);
+        startActivity(intent);
+    }
+
+    public void goToFragmentThree(View view) {
+        Intent intent = new Intent(this, MultipleFragmentViewmodelActivity.class);
         startActivity(intent);
     }
 }

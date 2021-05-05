@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".viewmodel.ViewModelLiveDataActivity"></activity>
+        <activity android:name=".viewmodel.MultipleFragmentViewmodelActivity"></activity>
+        <activity android:name=".viewmodel.ViewModelLiveDataActivity" />
         <activity android:name=".viewmodel.BasicViewModelActivity" />
         <activity android:name=".lifecycleaware.LifeCycleAwareActivity" />
         <activity android:name=".threads.AsyncTaskActivity" />

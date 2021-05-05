@@ -7,14 +7,9 @@ import kotlin.random.Random
 
 class ViewModelWithLiveData : ViewModel() {
 
-    private lateinit var number: MutableLiveData<String>
+    private var number: MutableLiveData<String> = MutableLiveData("")
 
     fun getNumber(): MutableLiveData<String> {
-        Log.d(TAG, " getNumber()")
-        if (!::number.isInitialized) {
-            number = MutableLiveData()
-            generateRandomNumber()
-        }
         return number
     }
 
@@ -25,6 +20,6 @@ class ViewModelWithLiveData : ViewModel() {
     }
 
     companion object {
-        val TAG = "dh-livedata"
+        val TAG = "hoinzey-viewmodel"
     }
 }
