@@ -1,4 +1,4 @@
-package com.example.learning.viewmodel
+package com.example.learning.viewmodel.multiple
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,6 +9,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import com.example.learning.R
 import com.example.learning.databinding.FragmentMultipleViewmodelFragTwoBinding
+import com.example.learning.viewmodel.ViewModelWithLiveData
 
 class MultipleViewmodelFragTwo : Fragment() {
 

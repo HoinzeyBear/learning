@@ -21,7 +21,7 @@ import com.example.learning.threads.AsyncTaskActivity;
 import com.example.learning.threads.HandlerThreadActivity;
 import com.example.learning.threads.ThreadLooperHandlerActivity;
 import com.example.learning.viewmodel.BasicViewModelActivity;
-import com.example.learning.viewmodel.MultipleFragmentViewmodelActivity;
+import com.example.learning.viewmodel.multiple.MultipleFragmentViewmodelActivity;
 import com.example.learning.viewmodel.ViewModelLiveDataActivity;
 import com.example.learning.viewpager2.ViewPagerMainActivity;
 

@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".viewmodel.MultipleFragmentViewmodelActivity">
+    tools:context=".viewmodel.multiple.MultipleFragmentViewmodelActivity">
 
     <fragment
         android:id="@+id/fragmentOne"
-        android:name="com.example.learning.viewmodel.MultipleViewmodelFragOne"
+        android:name="com.example.learning.viewmodel.multiple.MultipleViewmodelFragOne"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@id/fragmentTwo"
@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/fragmentTwo"
-        android:name="com.example.learning.viewmodel.MultipleViewmodelFragTwo"
+        android:name="com.example.learning.viewmodel.multiple.MultipleViewmodelFragTwo"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
