@@ -15,6 +15,7 @@ import com.example.learning.lifecycleaware.LifeCycleAwareActivity;
 import com.example.learning.paged_list_adapter.roomdb.PagedListActivity;
 import com.example.learning.recyclerview.RecyclerActivity;
 import com.example.learning.recyclerview_2.Recycler2MainActivity;
+import com.example.learning.roundbutton.RoundButtonActivity;
 import com.example.learning.services.BoundServiceActivity;
 import com.example.learning.services.ServicesActivity;
 import com.example.learning.threads.AsyncTaskActivity;
@@ -118,6 +119,11 @@ public class rootActivity extends AppCompatActivity {
 
     public void goToFragmentThree(View view) {
         Intent intent = new Intent(this, MultipleFragmentViewmodelActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToRoundyActivity(View view) {
+        Intent intent = new Intent(this, RoundButtonActivity.class);
         startActivity(intent);
     }
 }
