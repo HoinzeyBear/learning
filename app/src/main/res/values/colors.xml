@@ -7,4 +7,6 @@
     <color name="blog_background">#dee7e1</color>
     <color name="blog_ide">#2D2D2D</color>
     <color name="blog_orange_highlight">#D38D5D</color>
+    <color name="blood_orange">#EEAF5252</color>
+    <color name="light_blood_orange">#AF6552</color>
 </resources>

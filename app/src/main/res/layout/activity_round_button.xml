@@ -8,6 +8,7 @@
     tools:context=".roundbutton.RoundButtonActivity">
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/roundy_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
@@ -16,6 +17,19 @@
         android:layout_marginTop="50dp"
         android:background="@drawable/rounded_button"
         android:text="Round button"
+        android:padding="10dp"
+        android:textColor="@color/blog_ide" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/state_changy_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/roundy_button"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/state_changing_button"
+        android:text="State changy button"
         android:padding="10dp"
         android:textColor="@color/blog_ide" />
 
